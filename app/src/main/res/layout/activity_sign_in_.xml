@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_background_sign_in">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/text_Login"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/toolbar"
+        android:text="Log In"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/text_Email"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="15dp"
+        android:text="EMAIL"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/text_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_Email"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/custom_edittext_bottom"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/user_email_login"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_Email"
+        android:layout_marginLeft="50dp"/>
+    <LinearLayout
+        android:layout_below="@id/edt_Email"
+        android:id="@+id/linner"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1"
+        android:id="@+id/text_Password"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="PASSWORD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/text_show"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:textSize="15dp"
+            android:text="Show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/custom_edittext_bottom"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@drawable/password_email_login"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linner"
+        android:layout_marginLeft="50dp"/>
+    <LinearLayout
+        android:layout_marginTop="85dp"
+        android:layout_below="@id/edt_password"
+        android:id="@+id/linner2"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:id="@+id/text_Forgotpassword"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="25dp"
+            android:textSize="15dp"
+            android:text="Forgot Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="@null"
+            android:layout_weight="1"
+            android:id="@+id/text_abc"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:textSize="15dp"
+            android:drawableRight="@drawable/next_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>
