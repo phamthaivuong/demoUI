@@ -8,9 +8,35 @@
     android:orientation="vertical"
     android:background="@color/color_background_sign_in">
 
-    <include
+    <LinearLayout
+        android:weightSum="3"
+        android:orientation="horizontal"
         android:id="@+id/toolbar"
-        layout="@layout/toolbar"/>
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <ImageButton
+            android:id="@+id/imgbtn"
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Sign Up"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical|center"
+            android:src="@drawable/ic_back"/>
+    </LinearLayout>
     <TextView
         android:id="@+id/text_Login"
         android:layout_marginTop="50dp"

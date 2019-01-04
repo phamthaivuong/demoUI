@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".User.SignIn.SignIn_Activity"
+            android:name=".Rating.Rating_Activity"
             android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,8 +21,11 @@
         <activity android:name=".User.SignUp.SignUp_Activity" />
         <activity android:name=".User.SignUp.SignUp_2_Activity" />
         <activity android:name=".User.SignUp.SignUp_3_Activity" />
-        <activity android:name=".FAQ.FQAActivity"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".FAQ.FQAActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FAQ.Detail_FQAActivity" />
+        <activity android:name=".About.AboutActivity" />
+        <activity android:name=".User.SignIn.SignIn_Activity"></activity>
     </application>
 
 </manifest>

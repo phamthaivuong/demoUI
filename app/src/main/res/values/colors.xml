@@ -9,5 +9,6 @@
     <color name="color_background_sign_in">#80326e</color>
     //color background sign up
     <color name="color_background_sign_up">#005596</color>
-
+    <color name="yellow">#f7b237</color>
+    <color name="red">#ff00</color>
 </resources>
