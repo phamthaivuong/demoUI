@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#ff3366</color>
     <color name="colorPrimaryDark">#008577</color>
     <color name="colorAccent">#D81B60</color>
     <color name="colorWhite">#ffffff</color>
@@ -11,4 +11,9 @@
     <color name="color_background_sign_up">#005596</color>
     <color name="yellow">#f7b237</color>
     <color name="red">#ff00</color>
+    <color name="pink">#ff3366</color>
+    <color name="background_camera">#f2f2f2</color>
+    <color name="purple">#80326e</color>
+    <color name="line">#d8d8d8</color>
+    <color name="brown">#2b0b26</color>
 </resources>

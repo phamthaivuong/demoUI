@@ -3,4 +3,9 @@
     <string name="abc">aaa</string>
     <string name="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum pharetra lacus eu mollis. In semper magna et ante ullamcorper, vitae egestas nulla congue. Nam non sapien id leo tempus consectetur nec elementum magna. Pellentesque ut nisl magna. Pellentesque tempus quam sit amet gravida eleifend. Mauris pellentesque laoreet nulla ac euismod. Praesent nisi eros, tincidunt non tincidunt pretium, euismod quis nibh. Nullam venenatis quam quis imperdiet aliquet. Pellentesque luctus mollis tellus sed tincidunt. Nullam congue, odio sed consequat vestibulum, elit dolor efficitur libero, et vestibulum nunc risus a massa.</string>
     <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="title_payment_camera">Your payment details are securely encrypted with Braintree. Travelr dose not have access to your payment details</string>
+    <string name="title_activity_qr__code_">QR_Code_Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Rating.Rating_Activity"
+            android:name=".More.More_Activity"
             android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,18 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".FAQ.Detail_FQAActivity" />
         <activity android:name=".About.AboutActivity" />
-        <activity android:name=".User.SignIn.SignIn_Activity"></activity>
+        <activity android:name=".User.SignIn.SignIn_Activity" />
+        <activity android:name=".Rating.Rating_Activity" />
+        <activity android:name=".Payment.Payment_Detail_Activity" />
+        <activity
+            android:name=".Payment.Scan_QR_Code.QR_Code_Activity"
+            android:label="@string/title_activity_qr__code_"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Payment.Payment_Add_Activity" />
+        <activity android:name=".ChooseTime.ChooseTime_Activity" />
+        <activity android:name=".Payment.Payment_Activity" />
+        <activity android:name=".EditProfile.Edti_ProfileActivity" />
+        <activity android:name=".Wishlist.Wishlist_Activity"></activity>
     </application>
 
 </manifest>

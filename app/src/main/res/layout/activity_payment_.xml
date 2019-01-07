@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:background="@color/color_background_sign_in"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+        <ImageButton
+            android:id="@+id/imgbtn"
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_marginRight="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_back"/>
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:text="Payment"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_back"/>
+        <ImageButton
+            android:layout_marginLeft="50dp"
+            android:background="@null"
+            android:id="@+id/txt_signup"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical|center"
+            android:src="@drawable/cong"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/layout_payment"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_weight="2.5"
+                android:src="@drawable/visa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="******* 111"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View android:background="@color/line"
+            android:layout_marginTop="10dp"
+            android:id="@+id/line"
+            android:layout_marginLeft="15dp"
+            android:layout_below="@id/layout_payment"
+            android:layout_width = "match_parent"
+            android:layout_height="1dp"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/line"
+            android:id="@+id/layout_payment2"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="15dp"
+                android:layout_weight="2.5"
+                android:src="@drawable/mastercard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:text="******* 1025"
+                android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
